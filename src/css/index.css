@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root{
+  background-color: bisque ;
+  --padding: 50px;
+  --radius: 5px;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.imp{
+  height: 100%;
+  border-bottom: rgb(160, 160, 160) solid 0.1px;
+}
+.imp:focus{
+  outline: none;
+}
+
+.butt{
+  float: right;
+  padding-top: var(--padding);
+}
+
+.Login{
+  background-image: linear-gradient(rgb(255, 17, 223), rgb(165, 8, 165) );
+  padding: var(--padding);
+  margin: -1px;
+  border-radius: var(--radius);
+}
