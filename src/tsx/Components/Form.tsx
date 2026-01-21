@@ -28,7 +28,7 @@ export default function Forms() {
               className=" imp"
             />
           </div>
-          <button type="submit" className=" butt btn-secondary btn" onClick={"/front-end/src/pages/home.html"}>enviar</button>
+          <button type="submit" className=" butt btn-secondary btn">enviar</button>
       </form>
     </>
   );
